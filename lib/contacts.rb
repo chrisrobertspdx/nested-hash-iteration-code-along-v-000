@@ -40,3 +40,6 @@ def remove_strawberry(contacts)
   contacts["Freddy Mercury"][:favorite_ice_cream_flavors].delete_if{|flav| flav == "strawberry"}
   contacts
 end
+
+remove_strawberry(contacts)
+puts contacts
